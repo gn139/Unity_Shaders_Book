@@ -18,7 +18,8 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
-  version: 24
+  version: 25
+  projectContext: -1
   mGraphInstanceData:
   - graphLabel: Cereals
     prototypeName: Cereals
@@ -166,7 +167,7 @@ ScriptedImporter:
     texturePackingList:
     - targetName: diffuse
       components:
-      - sourceName: source
+      - sourceName: diffuse
         from: 0
         to: 3
     - targetName: specular
@@ -176,7 +177,7 @@ ScriptedImporter:
         to: 3
     - targetName: normal
       components:
-      - sourceName: source
+      - sourceName: normal
         from: 0
         to: 3
     - targetName: bump
@@ -191,7 +192,7 @@ ScriptedImporter:
         to: 3
     - targetName: height
       components:
-      - sourceName: source
+      - sourceName: height
         from: 0
         to: 3
     textureParameters:
@@ -391,7 +392,7 @@ ScriptedImporter:
     texturePackingList:
     - targetName: diffuse
       components:
-      - sourceName: source
+      - sourceName: diffuse
         from: 0
         to: 3
     - targetName: specular
@@ -401,7 +402,7 @@ ScriptedImporter:
         to: 3
     - targetName: normal
       components:
-      - sourceName: source
+      - sourceName: normal
         from: 0
         to: 3
     - targetName: bump
@@ -416,7 +417,7 @@ ScriptedImporter:
         to: 3
     - targetName: height
       components:
-      - sourceName: source
+      - sourceName: height
         from: 0
         to: 3
     textureParameters:
